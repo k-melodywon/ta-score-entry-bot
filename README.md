@@ -26,8 +26,10 @@ As a teaching assistant, I had to enter scores for ~70 students every week. To s
    pip install selenium webdriver-manager
 
 2. Replace your login info:
+   ```bash
    driver.find_element(By.XPATH, 'XPATH').send_keys("YOUR_USERNAME")
    driver.find_element(By.XPATH, 'XPATH').send_keys("YOUR_PASSWORD")
 
-4. Run the script:
+3. Run the script:
+   ```bash
    python auto_grade.py
