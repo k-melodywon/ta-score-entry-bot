@@ -29,5 +29,5 @@ As a teaching assistant, I had to enter scores for ~70 students every week. To s
    driver.find_element(By.XPATH, 'XPATH').send_keys("YOUR_USERNAME")
    driver.find_element(By.XPATH, 'XPATH').send_keys("YOUR_PASSWORD")
 
-3. Run the script:
+4. Run the script:
    python auto_grade.py
